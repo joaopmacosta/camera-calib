@@ -7,6 +7,3 @@ target_link_libraries( run_calib_v1 ${OpenCV_LIBS} )
 
 add_executable( run_calib_w_pictures calib_w_pictures.cpp )
 target_link_libraries( run_calib_w_pictures ${OpenCV_LIBS} )
-
-add_executable( run_calib_w_cam calib_w_cam.cpp )
-target_link_libraries( run_calib_w_cam ${OpenCV_LIBS} )
