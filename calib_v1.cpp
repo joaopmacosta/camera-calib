@@ -431,7 +431,7 @@ int main(int argc, char *argv[])
     break;
   }
 
-  while (1)
+  /*while (1)
   {
     // Capture frame-by-frame
     cap >> frame;
@@ -448,7 +448,7 @@ int main(int argc, char *argv[])
 
     // Press ESC on keyboard to exit,
     cv::waitKey(25);
-  }
+  }*/
   return 0;
 
 quit:
